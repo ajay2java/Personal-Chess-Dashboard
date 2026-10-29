@@ -1,4 +1,4 @@
-# Personal Chess Dashboard
+# ChessLens (A Personal Chess Dashboard)
 
 SQL analysis of my Lichess games, stored in PostgreSQL.
 DONE: Wrote SQL queries to answer relevant questions related to the online games I play.
