@@ -4,7 +4,7 @@ SQL analysis of my Lichess games, stored in PostgreSQL.
 
 ## Setup
 
-1. Copy `.env.example` to `.env` and fill in your Postgres password.
+1. Create `.env` and fill in your Postgres password.
 2. Run:
 
 ```
