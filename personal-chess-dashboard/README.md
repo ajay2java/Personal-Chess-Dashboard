@@ -1,6 +1,8 @@
 # Personal Chess Dashboard
 
 SQL analysis of my Lichess games, stored in PostgreSQL.
+DONE: Wrote SQL queries to answer relevant questions related to the online games I play.
+GOAL: To create my own dashboard in Streamlit to use analytics to inform my chess improvement.
 
 ## Setup
 
