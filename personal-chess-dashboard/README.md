@@ -1,4 +1,4 @@
-# Chess Dashboard
+# Personal Chess Dashboard
 
 SQL analysis of my Lichess games, stored in PostgreSQL.
 
@@ -9,7 +9,7 @@ SQL analysis of my Lichess games, stored in PostgreSQL.
 
 ```
 pip install -r requirements.txt
-python ingest/lichess.py KingAJ      # download games -> data/raw/
+python ingest/lichess.py [ENTER LICHESS USERNAME]      # download games -> data/raw/
 python ingest/load_lichess.py        # load into the "chess" Postgres database
 ```
 
@@ -20,5 +20,3 @@ Re-run the last two commands any time to pick up new games.
 - `raw.lichess_games`: each game exactly as the Lichess API returned it (JSONB)
 - `core.games`: one row per game, from my perspective
 - `core.moves`: one row per half-move, with clock and engine eval
-
-Column definitions: `sql/schema/01_create_tables.sql`
